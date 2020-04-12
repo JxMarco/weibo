@@ -6,6 +6,15 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+/**
+ * App\Models\User
+ *
+ * @property int $id
+ * @property string $name
+ * @property string $email
+ * @property string $password
+ * @property string|null $remember_token
+ */
 class User extends Authenticatable
 {
     use Notifiable;
@@ -40,8 +49,8 @@ class User extends Authenticatable
     ];
 
     public function gravatar($size = '100')
-{
-    $hash = md5(strtolower(trim($this->attributes['email'])));
-    return "http://www.gravatar.com/avatar/$hash?s=$size";
-}
+    {
+        $hash = md5(strtolower(trim($this->attributes['email'])));
+        return "http://www.gravatar.com/avatar/$hash?s=$size";
+    }
 }
