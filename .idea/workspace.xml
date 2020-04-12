@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9ed9f74-344d-4355-a05e-eb0ed0f85aa3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586595294653</updated>
-      <workItem from="1586595296788" duration="10444000" />
+      <workItem from="1586595296788" duration="11012000" />
     </task>
     <servers />
   </component>
@@ -152,9 +154,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="394" y="51" width="964" height="901" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586658698171" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1586661289498">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1586661977913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586661289498" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586661977913" />
   </component>
 </project>
